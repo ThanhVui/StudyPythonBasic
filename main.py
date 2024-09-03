@@ -489,6 +489,6 @@ sets
 """
 # mySets = {"apple", "banana", "cherry"}
 # print(mySets)
-
-set1 = set(("apple", "banana", "cherry", True, 1, "apple", False, 0))
-print(set1)
+#
+# set1 = set(("apple", "banana", "cherry", True, 1, "apple", False, 0))
+# print(set1)
