@@ -35,6 +35,7 @@ line
 """
 from itertools import count
 from time import process_time
+from tkinter.font import names
 
 # x = 5
 # y = 10
@@ -591,3 +592,113 @@ sets
 # set2 = {"google", "microsoft", "apple"}
 # set1.symmetric_difference_update(set2)
 # print(set1)
+
+"""
+dictionaries
+"""
+# dict1 = {
+#     "brand": "ford",
+#     "model": "Mustang",
+#     "year": 1999
+# }
+# print(dict1)
+
+# get the value of key through [key]
+# dict1 = {
+#     "brand": "ford",
+#     "model": "Mustang",
+#     "year": 1999
+# }
+# print(dict1["model"])
+
+# dict1 = {
+#   "brand": "Ford",
+#   "electric": False,
+#   "year": 1964,
+#   "colors": ["red", "white", "blue"]
+# }
+# print(dict1)
+
+# dict use dict()
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# print(dict1)
+
+# how to get value from key
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# x = dict1.get("name")
+# print(x)
+
+# how to get key from value
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# x = dict1.keys()
+# print(x)
+
+# how to change
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# x = dict1.keys()
+# print(x)
+# dict1["color"] = "red"
+# print(x)
+
+# how to change
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# x = dict1.values()
+# print(x)
+# dict1["color"] = "red"
+# print(x)
+
+# how to change
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# x = dict1.items()
+# print(x)
+# dict1["color"] = "red"
+# print(x)
+
+# how to change value of key
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# dict1["name"] = "Happy"
+# print(dict1)
+
+# how to change value of key
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# dict1.update({"name": "Happy"})
+# print(dict1)
+
+# how to change value of key
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# dict1.pop("name")
+# print(dict1)
+
+# how to change value of key
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# dict1.pop("name")
+# print(dict1)
+
+# how to remove item
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# del thisdict["model"]
+# print(thisdict)
+
+# how to loop through dict
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# for item in dict1:
+#     print(dict1[item])
+
+# how to loop through dict
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# for item in dict1.values():
+#     print(item)
+
+# how to loop through dict
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# for item in dict1.keys():
+#     print(item)
+
+# how to loop through dict
+# dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
+# for key, value in dict1.items():
+#     print(key, value)
