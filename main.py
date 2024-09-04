@@ -492,3 +492,82 @@ sets
 #
 # set1 = set(("apple", "banana", "cherry", True, 1, "apple", False, 0))
 # print(set1)
+
+# mySets = {"apple", "banana", "cherry"}
+# mySets.add("mango")
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# sets2 = {"pineapple", "mango", "lemon"}
+# mySets.update(sets2)
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# sets2 = ["pineapple", "mango", "lemon"]
+# mySets.update(sets2)
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# mySets.remove("banana")
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# mySets.discard("banana")
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# x = mySets.pop()
+# print(x)
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# mySets.clear()
+# print(mySets)
+
+# mySets = {"apple", "banana", "cherry"}
+# for item in mySets:
+#     print(item)
+
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"pineapple", "mango", "lemon"}
+# sets3 = {"orange",}
+# sets4 = {"nana"}
+# sets5 = sets1.union(sets2, sets3, sets4)
+# print(sets5)
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"pineapple", "mango", "lemon"}
+# sets3 = {"orange",}
+# sets4 = {"nana"}
+# sets3 = sets1 | sets2 | sets3 | sets4
+# print(sets3)
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"pineapple", "mango", "lemon"}
+# sets3 = {"orange",}
+# sets4 = {"nana", "banana", "cherry"}
+# sets5 = sets1.intersection(sets4)
+# print(sets5)
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"pineapple", "mango", "lemon"}
+# sets3 = {"orange",}
+# sets4 = {"nana", "banana", "cherry"}
+# sets5 = sets1 & sets4
+# print(sets5)
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"banana", "mango", "lemon"}
+# sets5 = sets1.intersection_update(sets2)
+# print(sets5)
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"banana", "mango", "lemon"}
+# sets5 = sets1.difference(sets2)
+# print(sets5)
+
+# sets1 = {"apple", "banana", "cherry"}
+# sets2 = {"banana", "mango", "lemon"}
+# sets5 = sets1 - sets2
+# print(sets5)
