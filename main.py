@@ -702,3 +702,181 @@ dictionaries
 # dict1 = dict(name = "Vui", age = 21, country = "United Kingdom")
 # for key, value in dict1.items():
 #     print(key, value)
+
+"""
+nested dictionary
+"""
+# mydict = {
+#     "dict1": {
+#         "name": "John",
+#         "age": 30
+#     },
+#     "dict2": {
+#         "name": "Vui",
+#         "age": 33
+#     },
+#     "dict3": {
+#         "name": "Happy",
+#         "age": 22
+#     }
+# }
+# print(mydict)
+
+# dict into dict
+# dict1 = {
+#     "name": "John",
+#     "age": 30
+# }
+# dict2 = {
+#     "name": "Vui",
+#     "age": 33
+# }
+# dict3 = {
+#     "name": "Happy",
+#     "age": 22
+# }
+#
+# mydict = {
+#     "child1": dict1,
+#     "child2": dict2,
+#     "child3": dict3
+# }
+# print(mydict)
+
+# dict1 = {
+#     "name": "John",
+#     "age": 30
+# }
+# dict2 = {
+#     "name": "Vui",
+#     "age": 33
+# }
+# dict3 = {
+#     "name": "Happy",
+#     "age": 22
+# }
+#
+# mydict = {
+#     "child1": dict1,
+#     "child2": dict2,
+#     "child3": dict3
+# }
+# print(mydict["child1"]["name"])
+
+# dict1 = {
+#     "name": "John",
+#     "age": 30
+# }
+# dict2 = {
+#     "name": "Vui",
+#     "age": 33
+# }
+# dict3 = {
+#     "name": "Happy",
+#     "age": 22
+# }
+#
+# mydict = {
+#     "child1": dict1,
+#     "child2": dict2,
+#     "child3": dict3
+# }
+# for item, object in mydict.items():
+#     print(item)
+#     for child in object:
+#         print(item + ":", object[child])
+
+"""
+if else statement
+if
+elif
+else
+"""
+# a = 3
+# b = 3
+# if a > b:
+#     print("a greater than b")
+# elif a < b:
+#     print("a less than b")
+# else:
+#     print("a equals b")
+#
+# if a == b: print("a equals b")
+
+# a = 3
+# b = 3
+# print("a equal b") if a == b or a < b else print("not equal")
+
+# a = 3
+# b = 2
+# if b < a:
+#     print(a)
+#     pass
+
+"""
+while and for loop
+"""
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+#
+# i = 1
+# while i < 6:
+#     print(i)
+#     if i == 3:
+#         break
+#     i += 1
+
+# i = 0
+# while i < 6:
+#     i += 1
+#     if i == 3:
+#         continue
+#     print(i)
+
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+# else:
+#     print("i is no longer less than 6")
+
+# for x in range(6):
+#     print(x)
+
+# for x in range(2, 6):
+#      print(x)
+
+# for x in range(2, 30, 3):
+#      print(x)
+# else:
+#     print("Finally For Loop")
+
+
+"""
+function
+"""
+# def function1():
+#     print("Hello World")
+# function1()
+# function1()
+
+# def my_function(*kids):
+#   for x in kids:
+#       print("The youngest child is " + x)
+#
+# my_function("Emil", "Tobias", "Linus")
+
+# def my_function(**kid):
+#   print("His last name is " + kid["fname"])
+#
+# my_function(fname = "Tobias", lname = "Refsnes")
+
+# def my_function(country = "Norway"):
+#   print("I am from " + country)
+#
+# my_function("Sweden")
+# my_function("India")
+# my_function()
+# my_function("Brazil")
